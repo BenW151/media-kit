@@ -336,6 +336,10 @@ header {
   grid-row-start: 1;
 }
 
+.hero-text h2 {
+  font-size: var(--font-size-M);
+}
+
 header .container {
   background: none;
 }
