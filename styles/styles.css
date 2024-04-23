@@ -124,6 +124,7 @@ p {
 
 #lead-text .text-reveal {
   grid-column: 4 / 14;
+  font-size: var(--font-size-M);
 }
 
 #about .paragraph-with-title:nth-of-type(1) {
@@ -240,6 +241,11 @@ p {
 #portfolio .image-text-overlay:nth-child(10) {
   grid-column: 9 / 14;
   grid-row: 5;
+}
+
+#contact-form .paragraph-with-title {
+  grid-column: 3 / 10;
+  grid-row: 1;
 }
 
 /** Main formatting */
@@ -490,7 +496,7 @@ footer .list.contact {
 }
 
 .paragraph-with-title {
-  grid-column: span 5;
+  grid-column: span 7;
 }
 
 .paragraph {
@@ -974,7 +980,7 @@ form .button {
 }
 
 .contact-form {
-  grid-column: 2 / 16;
+  grid-column: 3 / 15;
 }
 
 form {
