@@ -1237,6 +1237,7 @@ form label:nth-child(4) {
   #testimonials .item {
     grid-column: 1 / 7;
     margin-top: 0;
+    margin-bottom: var(--spacing-5);
   }
 
   #testimonials .paragraph-with-title:nth-child(2) {
@@ -1250,7 +1251,7 @@ form label:nth-child(4) {
   
   #testimonials .image:nth-child(4) {
     grid-row: 4;
-    position: relative;
+    max-height: 20vh;
   }
   
   #testimonials .card:nth-child(5) {
@@ -1259,7 +1260,7 @@ form label:nth-child(4) {
   
   #testimonials .image:nth-child(6) {
     grid-row: 6;
-    position: relative;
+    max-height: 20vh;
   }
   
   #testimonials .card:nth-child(7) {
@@ -1268,7 +1269,7 @@ form label:nth-child(4) {
   
   #testimonials .image:nth-child(8) {
     grid-row: 8;
-    position: relative;
+    max-height: 20vh;
   }
 
   /** Main Formatting */
