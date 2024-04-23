@@ -381,3 +381,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+//* Play Video On Hover
+document.addEventListener("DOMContentLoaded", function() {
+  const items = document.querySelectorAll(".item"); 
+
+  items.forEach(item => {
+    const video = item.querySelector("video");
+
+    item.addEventListener("mouseenter", function() {
+      video.muted = true;
+      video.play();
+    });
+
+    item.addEventListener("mouseleave", function() {
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+});
