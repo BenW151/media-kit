@@ -249,7 +249,7 @@ p {
 }
 
 #testimonials .card:nth-child(4) {
-  grid-column: 2 / 7;
+  grid-column: 3 / 8;
   grid-row: 3;
   margin: auto;
 }
@@ -536,6 +536,7 @@ footer .list.contact {
 .block-quote {
   grid-column: span 4;
   font-style: italic;
+  font-size: var(--font-size-XXS);
 }
 
 .card {
@@ -549,12 +550,18 @@ footer .list.contact {
   align-self: center;
 }
 
+.card-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: var(--spacing-1);
+}
+
 .card img {
   width: 5vw;
   height: 5vw;
   overflow: visible;
   margin-right: var(--spacing-2);
-  filter: grayscale(100%);
 }
 
 .card-text p {
@@ -563,10 +570,6 @@ footer .list.contact {
 
 .card .name {
   font-weight: bold;
-}
-
-.card .role {
-  margin-bottom: var(--spacing-1);
 }
 
 .underline {
