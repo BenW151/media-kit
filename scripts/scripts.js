@@ -114,7 +114,9 @@ document.addEventListener("DOMContentLoaded", function () {
       duration: 1000,
     });
   } else {
-    AOS.init();
+    AOS.init({
+      duration: 1000
+    });
   }
 });
 
