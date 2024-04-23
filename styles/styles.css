@@ -137,7 +137,6 @@ p {
 
 #about .title:nth-child(4) {
   grid-column: 1 / 9;
-  margin-top: 40vh;
 }
 
 #about .data-list:nth-child(5) {
@@ -154,7 +153,6 @@ p {
 
 #about .title:nth-child(8) {
   grid-column: 9 / 17;
-  margin-top: 40vh;
 }
 
 #about .accordion {
@@ -163,12 +161,12 @@ p {
 
 #about .image-text-overlay:nth-child(10) {
   grid-column: 11 / 16;
-  grid-row: 4 / 6;
+  grid-row: 5 / 6;
 }
 
 #about .image-text-overlay:nth-child(11) {
   grid-column: 1 / 8;
-  grid-row: 6 / 8;
+  grid-row: 7 / 8;
   max-height: 70vh;
 }
 
@@ -176,10 +174,6 @@ p {
   grid-column: 1 / 6;
   grid-row: 2 / 4;
   max-height: 60vh;
-}
-
-#about .image-text-overlay:nth-child(12) video {
-  top: -30vh;
 }
 
 #portfolio .grid {
@@ -251,40 +245,43 @@ p {
 #testimonials .card:nth-child(3) {
   grid-column: 9 / 16;
   grid-row: 2;
-  margin-top: 20vh;
+  margin: auto;
 }
 
 #testimonials .image:nth-child(4) {
   grid-column: 1 / 8;
-  grid-row: 3;
-  margin-top: 40vh;
-  max-height: 60vh;
+  grid-row: 2;
+  max-height: 50vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
 
 #testimonials .card:nth-child(5) {
   grid-column: 1 / 8;
-  grid-row: 4;
-  margin-top: 40vh;
+  grid-row: 3;
+  margin: auto;
 }
 
 #testimonials .image:nth-child(6) {
   grid-column: 9 / 16;
-  grid-row: 5;
-  margin-top: 50vh;
+  grid-row: 3;
   max-height: 40vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
 
 #testimonials .card:nth-child(7) {
   grid-column: 9 / 16;
-  grid-row: 6;
-  margin-top: 20vh;
+  grid-row: 4;
+  margin: auto;
 }
 
 #testimonials .image:nth-child(8) {
   grid-column: 1 / 8;
-  grid-row: 7;
-  margin-top: 50vh;
-  max-height: 50vh;
+  grid-row: 4;
+  max-height: 40vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
 
 /** Main formatting */
@@ -566,7 +563,6 @@ footer .list.contact {
 
 .card {
   display: flex;
-  flex-direction: row;
   grid-column: span 7;
   align-items: center;
 }
@@ -1059,7 +1055,6 @@ form label:nth-child(4) {
 .image-text-overlay {
   grid-column: span 6;
   overflow: hidden;
-  position: absolute;
   top: 0;
   left: 0;
 }
@@ -1224,10 +1219,6 @@ form label:nth-child(4) {
     max-height: 50vh;
     margin-top: 10vh;
     filter: opacity(0.8);
-  }
-
-  #about .image-text-overlay:nth-child(12) video {
-    top: 0;
   }
 
   #portfolio .item.image-text-overlay,
