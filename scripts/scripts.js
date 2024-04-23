@@ -400,3 +400,19 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+//* Underline when visible
+document.addEventListener("DOMContentLoaded", () => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 1 
+  });
+
+  const elements = document.querySelectorAll('.underline');
+  elements.forEach(el => observer.observe(el));
+});
