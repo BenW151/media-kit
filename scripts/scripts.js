@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
     container.textContent = ""; // Clear the container
     const words = phrase.split(/\s+/); // Split phrase into words at one or more whitespace
     const fontSize = window.getComputedStyle(container).fontSize;
-    const gapSize = parseFloat(fontSize) / 6; // Calculate gap size based on font size
+    const gapSize = parseFloat(fontSize) / 5; // Calculate gap size based on font size
 
     container.style.setProperty("--gap-size", `${gapSize}px`); // Set the gap size
 
