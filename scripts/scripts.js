@@ -146,8 +146,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 //* Rellax
 document.addEventListener("DOMContentLoaded", function () {
+  var isMobile = window.innerWidth < 768;
+
+  var speedSetting = isMobile ? 0 : 1;
+
   var rellax = new Rellax(".rellax", {
-    speed: 1,
+    speed: speedSetting,
     center: false,
     wrapper: null,
     round: true,
@@ -155,6 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
     horizontal: false,
   });
 });
+
 
 //* Scroll Load Bar
 window.onscroll = function () {
