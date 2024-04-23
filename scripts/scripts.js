@@ -362,7 +362,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //* Play Video On Hover
 document.addEventListener("DOMContentLoaded", function() {
-  const items = document.querySelectorAll(".item"); 
+  const items = document.querySelectorAll(".video"); 
 
   items.forEach(item => {
     const video = item.querySelector("video");
