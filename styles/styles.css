@@ -1045,50 +1045,50 @@ form label:nth-child(4) {
   }
 
   #about .paragraph-with-title:nth-of-type(1) {
-    grid-column: 2 / 7;
-    grid-row-start: 1;
+    grid-column: 1 / 7;
+    grid-row-start: 2;
   }
   
   #about .title {
     grid-column: 2 / 7;
-    grid-row-start: 2;
+    grid-row-start: 3;
   }
   
   #about .title:nth-child(4) {
-    grid-column: 2 / 7;
+    grid-column: 1 / 7;
     margin-top: 10vh;
-    grid-row-start: 4;
-  }
-  
-  #about .data-list:nth-child(5) {
-    grid-column: 2 / 7;
     grid-row-start: 5;
   }
   
-  #about .data-list:nth-child(6) {
-    grid-column: 2 / 7;
+  #about .data-list:nth-child(5) {
+    grid-column: 1 / 6;
     grid-row-start: 6;
   }
   
-  #about .data-list:nth-child(7) {
-    grid-column: 2 / 7;
+  #about .data-list:nth-child(6) {
+    grid-column: 1 / 6;
     grid-row-start: 7;
   }
   
+  #about .data-list:nth-child(7) {
+    grid-column: 1 / 6;
+    grid-row-start: 8;
+  }
+  
   #about .title:nth-child(8) {
-    grid-column: 2 / 7;
+    grid-column: 1 / 7;
     margin-top: 10vh;
-    grid-row-start: 9;
+    grid-row-start: 10;
   }
   
   #about .accordion {
-    grid-column: 2 / 7;
-    grid-row-start: 10;
+    grid-column: 1 / 7;
+    grid-row-start: 11;
   }
   
   #about .image-text-overlay:nth-child(10) {
     grid-column: 1 / 7;
-    grid-row: 8;
+    grid-row: 9;
     position: relative;
     margin-top: 10vh;
     filter: opacity(0.8);
@@ -1096,7 +1096,7 @@ form label:nth-child(4) {
   
   #about .image-text-overlay:nth-child(11) {
     grid-column: 1 / 7;
-    grid-row: 11;
+    grid-row: 12;
     position: relative;
     max-height: 50vh;
     margin-top: 10vh;
@@ -1105,7 +1105,7 @@ form label:nth-child(4) {
   
   #about .image-text-overlay:nth-child(12) {
     grid-column: 1 / 7;
-    grid-row: 3;
+    grid-row: 4;
     position: relative;
     max-height: 50vh;
     margin-top: 10vh;
@@ -1348,6 +1348,11 @@ form label:nth-child(4) {
 
   .card {
     grid-column: span 6;
+  }
+
+  .card img {
+    width: 10vw;
+    height: 10vw;
   }
 
   .block-quote {

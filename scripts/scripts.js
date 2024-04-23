@@ -160,33 +160,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
-//* Scroll Load Bar
-window.onscroll = function () {
-  myFunction();
-};
-
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height =
-    document.documentElement.scrollHeight -
-    document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-
-//* light mode toggle
-document.addEventListener("DOMContentLoaded", function () {
-  document
-    .getElementById("toggleDarkMode")
-    .addEventListener("click", function () {
-      document.body.classList.toggle("light-mode");
-      var icon = document.getElementById("theme-icon");
-      icon.classList.toggle("fa-sun");
-      icon.classList.toggle("fa-moon");
-    });
-});
-
 //* Text reveal
 document.addEventListener("DOMContentLoaded", function () {
   const textContainers = document.querySelectorAll(".text-reveal");
