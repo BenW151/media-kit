@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var rellax = new Rellax(".rellax", {
     speed: speedSetting,
-    center: true,
+    center: false,
     wrapper: null,
     round: true,
     vertical: true,

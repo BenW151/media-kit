@@ -21,6 +21,8 @@ body {
   --font-color-secondary: #1d1d1c;
   --accent-primary: #f2f3f4;
   --accent-secondary: #1d1d1c;
+  --color-white: #f2f3f4;
+  --color-black: #1d1d1c;
   --background-primary: #1d1d1c;
   --background-secondary: #f2f3f4;
   --background-opacity: rgba(0, 0, 0, 0.1);
@@ -166,7 +168,7 @@ p {
 
 #about .image-text-overlay:nth-child(11) {
   grid-column: 1 / 8;
-  grid-row: 7 / 8;
+  grid-row: 6 / 8;
   max-height: 70vh;
 }
 
