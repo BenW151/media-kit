@@ -261,19 +261,22 @@ p {
 }
 
 #image-strip .container {
+  max-width: 100%;
   padding-left: 0;
   padding-right: 0;
 }
 
 #image-strip .image {
-  width: 100%;
-  height: 70vh;
+  height: 90vh;
   overflow: hidden;
 }
 
 #image-strip img {
+  position: absolute;
+  height: 120vh;
+  width: 100%;
   object-fit: cover;
-  object-position: 50% 50%;
+  object-position: 50% 60%;
 }
 
 /** Main formatting */
